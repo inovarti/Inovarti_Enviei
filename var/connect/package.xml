@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <package>
     <name>Inovarti_Enviei</name>
-    <version>0.1.2</version>
+    <version>0.1.0</version>
     <stability>stable</stability>
     <license>Inovarti License</license>
-    <channel>Inovarti_Enviei</channel>
+    <channel>community</channel>
     <extends/>
     <summary>API para integrar com Enviei</summary>
     <description>http://enviei.com</description>
-    <notes>Vers&#xE3;o 0.1.2&#xD;
+    <notes>Vers&#xE3;o 0.1.0&#xD;
 - listando todos os pedidos</notes>
     <authors><author><name>Inovarti</name><user>Inovarti</user><email>suporte@inovarti.com.br</email></author></authors>
     <date>2014-08-29</date>
-    <time>16:25:37</time>
-    <contents><target name="magecommunity"><dir name="Inovarti"><dir name="Enviei"><dir name="Helper"><file name="Data.php" hash="34d29a32681b28fd3aa8053cba92933a"/></dir><dir name="Model"><file name="Api.php" hash="d027bbdee89e608f6bdff1f05a4734df"/><dir name="System"><dir name="Config"><dir name="Source"><file name="Line.php" hash="9411767e4ab94f4e53994dba26f4f4a4"/></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="429bc53e264dc7597a7e5c208698082f"/><file name="api.xml" hash="7f4ac8aabd6d4bae51cdc80daa825c1c"/><file name="config.xml" hash="f53792987e7e0f0adb7cdf49525f6b9e"/><file name="system.xml" hash="87da435ef7683f9ae18d7d623880d4ef"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Inovarti_Enviei.xml" hash="938ef18b66c9d05e6ab02f32f3d5787a"/></dir></target><target name="magelocale"><dir><dir name="pt_BR"><file name="Inovarti_Enviei.csv" hash="aa78274d9766cd1dc7998336f82fec6e"/></dir></dir></target></contents>
+    <time>17:15:34</time>
+    <contents><target name="magecommunity"><dir name="Inovarti"><dir name="Enviei"><dir name="Helper"><file name="Data.php" hash="34d29a32681b28fd3aa8053cba92933a"/></dir><dir name="Model"><file name="Api.php" hash="d027bbdee89e608f6bdff1f05a4734df"/><dir name="System"><dir name="Config"><dir name="Source"><file name="Line.php" hash="9411767e4ab94f4e53994dba26f4f4a4"/></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="429bc53e264dc7597a7e5c208698082f"/><file name="api.xml" hash="7f4ac8aabd6d4bae51cdc80daa825c1c"/><file name="config.xml" hash="e0e7d6235ba172c9ce80c1a956292b6e"/><file name="system.xml" hash="87da435ef7683f9ae18d7d623880d4ef"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Inovarti_Enviei.xml" hash="938ef18b66c9d05e6ab02f32f3d5787a"/></dir></target><target name="magelocale"><dir><dir name="pt_BR"><file name="Inovarti_Enviei.csv" hash="aa78274d9766cd1dc7998336f82fec6e"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

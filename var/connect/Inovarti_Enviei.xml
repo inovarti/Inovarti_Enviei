@@ -1,7 +1,7 @@
 <_>
-   <form_key>BtT9Ka22WI0Y4iwc</form_key>
+   <form_key>t9FsRT5FI0eYVMhW</form_key>
    <name>Inovarti_Enviei</name>
-   <channel>Inovarti_Enviei</channel>
+   <channel>community</channel>
    <version_ids>
       <version_ids>2</version_ids>
    </version_ids>
@@ -9,9 +9,9 @@
    <description>http://enviei.com</description>
    <license>Inovarti License</license>
    <license_uri/>
-   <version>0.1.2</version>
+   <version>0.1.0</version>
    <stability>stable</stability>
-   <notes>Versão 0.1.2
+   <notes>Versão 0.1.0
 - listando todos os pedidos</notes>
    <authors>
       <name>
@@ -41,7 +41,7 @@
             <max/>
          </max>
          <files>
-            <files> </files>
+            <files>    </files>
          </files>
       </package>
       <extension>
@@ -88,4 +88,8 @@
          <ignore/>
       </ignore>
    </contents>
+   <page>1</page>
+   <limit>200</limit>
+   <folder/>
+   <package/>
 </_>
