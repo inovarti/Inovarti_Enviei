@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Inovarti_Enviei>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Inovarti_Enviei>
+    </modules>
+</config>

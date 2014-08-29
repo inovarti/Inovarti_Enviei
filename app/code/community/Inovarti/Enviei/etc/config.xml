@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Enviei
+ *
+ * @category    Enviei
+ * @package     Inovarti_Enviei
+ * @copyright   Copyright (c) 2013 Inovarti. (http://www.inovarti.com.br)
+ */
+-->
+<config>
+    <modules>
+        <Inovarti_Enviei>
+            <version>0.1.2</version>
+        </Inovarti_Enviei>
+    </modules>
+    <global>
+        <models>
+            <enviei>
+                <class>Inovarti_Enviei_Model</class>
+            </enviei>
+        </models>
+        <helpers>
+            <enviei>
+                <class>Inovarti_Enviei_Helper</class>
+            </enviei>
+        </helpers>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Inovarti_Enviei>
+                    <files>
+                        <default>Inovarti_Enviei.csv</default>
+                    </files>
+                </Inovarti_Enviei>
+            </modules>
+        </translate>
+    </adminhtml>
+    <default>
+        <enviei>
+            <fields>
+                <address>1</address>
+                <number>2</number>
+                <more>3</more>
+            </fields>
+        </enviei>
+    </default>
+</config>

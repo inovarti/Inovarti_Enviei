@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Enviei
+ *
+ * @category    Enviei
+ * @package     Inovarti_Enviei
+ * @copyright   Copyright (c) 2013 Inovarti. (http://www.inovarti.com.br)
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <enviei translate="title" module="enviei">
+                                        <title>Enviei</title>
+                                        <sort_order>200</sort_order>
+                                    </enviei>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

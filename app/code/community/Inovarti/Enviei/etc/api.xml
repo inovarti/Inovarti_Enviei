@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Enviei
+ *
+ * @category    Enviei
+ * @package     Inovarti_Enviei
+ * @copyright   Copyright (c) 2013 Inovarti. (http://www.inovarti.com.br)
+ */
+-->
+<config>
+    <api>
+        <resources>
+            <enviei translate="title" module="enviei">
+                <model>enviei/api</model>
+                <title>Enviei Resource</title>
+                <acl>enviei</acl>
+                <methods>
+                    <orders translate="title" module="enviei">
+                        <title>Order List</title>
+                        <method>orders</method>
+                        <acl>enviei/orders</acl>
+                    </orders>
+                </methods>
+                <faults module="enviei">
+                    <not_exists>
+                        <code>100</code>
+                        <message>Order not exists.</message>
+                    </not_exists>
+                </faults>
+            </enviei>
+        </resources>
+        <acl>
+            <resources>
+                <enviei translate="title" module="enviei">
+                    <title>Enviei Resource</title>
+                    <sort_order>100</sort_order>
+                    <orders translate="title" module="enviei">
+                        <title>Order List</title>
+                        <sort_order>10</sort_order>
+                    </orders>
+                </enviei>
+            </resources>
+        </acl>
+    </api>
+</config>
